@@ -61,7 +61,18 @@ col3.metric(
     lowest_interest
 )
 
-# interactive line chart
-st.line_chart(
-    df.set_index("date")[selected_topic]
+fig = px.line(
+    df,
+    x="date",
+    y=selected_topic,
+    title=f"{selected_topic.title()} Search Interest Over Time",
+    markers=True
 )
+
+fig.update_layout(
+    xaxis_title="Date",
+    yaxis_title="Search Interest",
+    template="plotly_white"
+)
+
+st.plotly_chart(fig, use_container_width=True)
