@@ -129,7 +129,7 @@ st.info("""
 
 • Women's shelter searches showed the largest decrease over the same period.
 
-• Emotional abuse searches increased steadily, suggesting growing awareness of non-physical forms of abuse.
+• Emotional abuse search interest increased over the study period. This may reflect increased awareness, changes in terminology, media attention, or other factors that cannot be identified through search data alone.
 
 • Search behavior changed differently across topics, highlighting the importance of using multiple indicators when studying help-seeking behavior.
 """)

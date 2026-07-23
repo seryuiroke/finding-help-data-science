@@ -151,6 +151,42 @@ The goal of this project is to demonstrate ethical applications of data science 
 
 ---
 
+## How to Run This Project
+
+The interactive dashboard is available online:
+
+** https://finding-insights.streamlit.app/**
+
+To run the project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/seryuiroke/finding-help-data-science.git
+```
+
+2. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. The notebooks should be run in the following order to reproduce the analysis:
+
+```text
+01_data_collection.ipynb
+02_data_cleaning.ipynb
+03_exploratory_analysis.ipynb
+04_discussion_and_implications.ipynb
+```
+
+4. (Optional) Launch the Streamlit dashboard locally:
+
+```bash
+streamlit run dashboard/app.py
+```
+----
+
 ## Author
 
 Shraddha Rao
