@@ -41,6 +41,8 @@ Features include:
 
 ## Project Workflow
 
+This project follows a complete data science workflow, from collecting public search data to building an interactive dashboard for exploring the results.
+
 ### Notebook 1 – Data Collection
 
 Collected monthly Google Trends data (2019–2025) for multiple domestic violence support-related search terms using the Pytrends library.
@@ -154,3 +156,5 @@ The goal of this project is to demonstrate ethical applications of data science 
 Shraddha Rao
 
 Summer 2026
+
+This project was created for educational purposes using publicly available Google Trends data.
